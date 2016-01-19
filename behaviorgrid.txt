@@ -1,0 +1,16 @@
+
+Behavior:
+1. a shape is a equitriangle
+2. a shape is isosceles triangle
+3. a shape is a scalene triangle
+
+Input Example:
+(triangle = sum of two sides are greater than third side)
+1. 4, 4, 4
+2. 4, 4, 6
+3. 2, 3, 4
+
+Output Example:
+2. true
+3. true
+4. true
