@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
-    <script src="js/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title">
+    <script src="js/jquery-1.12.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
 <title>Is it a Triangle?</title>
@@ -19,6 +19,8 @@
           <option>3</option>
           <option>4</option>
           <option>5</option>
+          <option>6</option>
+          <option>7</option>
           </select>
         <label>Second Number</lable>
           <p><select id="side2" class="form-control"></p>
@@ -27,6 +29,8 @@
             <option>3</option>
             <option>4</option>
             <option>5</option>
+            <option>6</option>
+            <option>7</option>
             </select>
           <p><label>Third Number</lable></p>
             <select id="side3" class="form-control">
@@ -35,21 +39,23 @@
               <option>3</option>
               <option>4</option>
               <option>5</option>
+              <option>6</option>
+              <option>7</option>
             </select>
             <br>
-            <button id="Submit" type="button" class="btn btn-default">Submit</button>
+            <button id="buttonSubmit" type="button" class="btn btn-default">Submit</button>
       </form>
       <h2>What kind of triangle did you make?</h2>
-      <div class="equilateral">
+      <div id="equilateral">
         <p>You have made an equilateral triangle!</p>
       </div>
-      <div class="isosceles">
+      <div id="isosceles">
         <p>You have made an isoceles triangle!</p>
       </div>
-      <div class="scalene">
+      <div id="scalene">
         <p>You have made an scalene triangle!</p>
       </div>
-      <div class="notTriangle">
+      <div id="notTriangle">
         <p>You have not made a triangle!</p>
       </div>
 

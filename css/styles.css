@@ -1,3 +1,3 @@
-.equilateral, .isosceles, .scalene, .notTriangle {
+#equilateral, #isosceles, #scalene, #notTriangle {
   display: none;
 }
